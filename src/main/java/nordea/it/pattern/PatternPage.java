@@ -15,6 +15,7 @@ public class PatternPage {
 		if(driver == null){
 			try {
 				driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.firefox());
+				driver.get("http://www.nordea.pl/");
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
