@@ -17,6 +17,12 @@ public class TestNordeaIT {
 	}
 	
 	@Test
+	public void testDodawania(){
+		System.out.println("Out it tt");
+	}
+	
+	
+	@Test
 	public void testNordeaIt(){
 		it = main.getPageNordeaIt();
 	}
