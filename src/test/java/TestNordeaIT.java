@@ -18,7 +18,7 @@ public class TestNordeaIT {
 	
 	@Test
 	public void testDodawania(){
-		System.out.println("Out it tt");
+		System.out.println("2222222222222222222Out it tt");
 	}
 	
 	
